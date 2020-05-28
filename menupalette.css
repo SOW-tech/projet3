@@ -1,0 +1,64 @@
+
+
+/*body {
+ 	font-family: Monotype Corsiva;
+	text-align: center;
+}*/
+
+.contenupalette {
+	background-color: #fdfffd;
+	font-family: Monotype Corsiva;
+	text-align: center; 
+	/*height: 600px;*/		
+}
+
+.esquisse {
+	font-size: 15px;
+}
+
+/*footer.basdepage {
+	display: flex;
+	background-color: #1B5E20; 
+	color: #FFC107; 
+	padding: 5px;
+	margin-top: 10px;
+	justify-content: space-between;
+} 
+
+h1 {
+	background-color: #1B5E20;
+	color: #FFC107;
+}  */
+
+
+
+.oeuvre {
+	margin-top: 30px;
+	font-size: 15px;
+} 
+
+
+
+/*span.gras {
+	font-weight: bold;
+}  
+
+span.tarif {
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: #FFC107;
+	/*background-color: #1B5E20;*/
+	border: #1B5E20;
+	font-size: 15px;
+} */
+
+
+
+
+
+
+
+

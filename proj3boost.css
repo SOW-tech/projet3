@@ -1,0 +1,276 @@
+a.chic {
+	background-color: #fef5ff;
+	font-size: 20px;
+	font-family: Noteworty light;
+	color: rgb(214, 151, 123);
+	width: 50px;
+} 
+
+a.délice {
+	background-color: #F9F9F9;
+	font-size: 20px;
+	font-family: Freestyle Script;
+	color: rgb(127,168, 243);
+	width: 50px;
+}
+
+a.note {
+	background-color: #FCDFDB;
+	font-size: 20px;
+	font-family: Apple chancery;
+	color: #61393E;	
+	width: 50px;
+}
+
+a.palette {
+	background-color: #FDFFFD;
+	font-size: 20px;
+	font-family: Monotype Corsiva;
+	color: #94cf7f;
+	width: 50px;
+} 
+
+a.col {
+	flex: 1 0 auto;
+	display: block;
+} 
+
+.art {
+	margin-top: 30px;
+	font-size: 15px;
+} 
+
+.appetitchic {
+	color: #e3b78e;
+	font-size: 15px;	
+} 
+
+.biencommencer {
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+.biencontinuer {
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+.bienterminer {
+	margin-top: 30px;
+	font-size: 15px;
+}  
+
+/*body {
+	text-align: center;
+}*/
+
+.chic a {
+	color: rgb(214, 151, 123);
+}
+
+.contenuchic {
+	background-color: #fef5ff;
+	height: 550px;
+	/*text-align: auto;*/
+	font-family: Noteworty light;
+ }
+
+ .contenudelice {
+	background-color: #F9F9F9;
+	/*text-align: auto;*/
+	font-family: Freestyle Script; 
+	height: 550px;
+} 
+
+.contenupalette {
+	background-color: #fdfffd;
+	font-family: Monotype Corsiva;
+	/*text-align: auto; */
+	height: 550px;		
+} 
+
+.délice a {
+    color: rgb(127,168, 243);
+} 
+
+div.menu a.col{
+margin: 20px;
+height: 180px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;	
+
+}
+
+.esquisse {
+	font-size: 15px;
+} 
+
+footer.basdepage {
+	background-color: #1B5E20; 
+	color: #FFC107; 
+	margin-top: 10px; 
+	display: flex;
+	justify-content: space-between;
+	/*padding: 10px; */
+	position: fixed;	
+	bottom: 0 ;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+
+.gourmandiseschic {
+	color: #a188df;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+.hautchic {
+	color: rgb(214, 151, 123); 
+	text-align: center;
+} 
+
+.hautdelice {
+    color: rgb(127, 168, 243); 
+    text-align: center;
+}  
+
+.hautnote {
+	text-align: center;
+}
+
+.hautpalette {
+	/*margin-top: 40px;
+	margin-bottom: 40px;*/
+	color: #94cf7f;
+	text-align: center;
+} 
+
+header.entete {
+	background-color: #1B5E20;
+	color: #FFC107;
+	/*position: fixed;	
+	top: 0 ;
+	right: 0;
+	left: 0;*/
+	/*padding: 0.5px;*/
+	text-align: center;
+}
+
+nav.prochainement span {
+	display: inline-block;
+	border-radius: 10px;
+	background-color: #1B5E20;
+	color: #FFC107;
+	padding: 10px 60px;
+}
+
+.oeuvre {
+	margin-top: 30px;
+	font-size: 15px;
+} 
+
+.palette a {
+    color: #94cf7f;
+} 
+
+.plaisirchic {
+	color: #ac73a2;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+section.row {
+	display: flex;	
+}
+
+a {
+	text-decoration: none;
+	color: #FFC107;
+	border: #1B5E20;
+	font-size: 15px;
+} 
+
+div.ensemblenote {
+	font-family: Apple chancery;
+	background-color: #FCDFDB; 	
+}
+
+h3 img {
+	margin-right: 10px;
+	height: 20px;
+	/*text-align: left;*/
+} 
+
+h4 {
+	text-align: center;
+}
+
+img {
+    height: 30px;
+    /*padding-top: 10px;*/
+    /*text-align: center;*/
+} 
+
+h4.note {
+	font-size: 15px;
+} 
+
+span.gras {
+	font-weight: bold;   	
+} 
+
+span.tarif {
+font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: #FFC107;
+	background-color: #1B5E20;
+	border: #1B5E20;
+	font-size: 15px;
+} 
+
+h2.droit {
+	text-align: center;
+	margin-top: 180px;
+	font-family: Apple chancery; 
+}
+
+table{
+	/*display: inline-table;*/
+	margin: 0 auto; 
+}
+
+.prochainement {
+	text-align: center;
+}
+
+.iconebas {
+	text-align: center;
+}
+
+
+/*div.ensemblenote img h3 {
+	text-align: center;
+}*/
+
+
+
+
+/*.note span.imgs{
+	background-image:
+	     linear-gradient(to right, white, yellow),
+	    url('images/musical.png');
+	   
+	    height: 40px;
+	    width: 40%;
+	    background-size: cover;
+	    /color: white;/
+	    /padding: 20px;/
+	    background-image: url("images/musical.png");
+}*/
+
