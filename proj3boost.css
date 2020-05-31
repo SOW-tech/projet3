@@ -1,3 +1,19 @@
+a {
+	text-decoration: none;
+	color: #FFC107;
+	background-color: #1B5E20; 
+	border: #1B5E20;
+	font-size: 15px;
+} 
+
+/*a{
+	text-decoration: none;
+	color: #FFC107;
+	
+	border: #1B5E20;
+	font-size: 15px;
+} */
+
 a.chic {
 	background-color: #fef5ff;
 	font-size: 20px;
@@ -72,13 +88,11 @@ a.col:hover {
 .contenuchic {
 	background-color: #fef5ff;
 	height: 550px;
-	/*text-align: auto;*/
 	font-family: Noteworty light;
  }
 
  .contenudelice {
 	background-color: #F9F9F9;
-	/*text-align: auto;*/
 	font-family: Freestyle Script; 
 	height: 550px;
 } 
@@ -104,15 +118,34 @@ justify-content: center;
 
 }
 
-.wrapper {
-	max-width: 700px;
-	margin: auto;
+div.ensemblenote {
+	font-family: Apple chancery;
+	background-color: #FCDFDB; 
+	padding: 50px;	
+} 
+
+div.col:hover {
+	animation: shake 0.3s;
+	animation-iteration-count: infinite;
 }
+
+@keyframes shake {
+	0% { transform: translate (1px, 1px) rotate (0deg); }
+	10% { transform: translate (-1px, -2px) rotate (-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+  	30% { transform: translate(3px, 2px) rotate(0deg); }
+  	40% { transform: translate(1px, -1px) rotate(1deg); }
+  	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  	60% { transform: translate(-3px, 1px) rotate(0deg); }
+  	70% { transform: translate(3px, 1px) rotate(-1deg); }
+  	80% { transform: translate(-1px, -1px) rotate(1deg); }
+  	90% { transform: translate(1px, 2px) rotate(0deg); }
+  	100% { transform: translate(1px, -2px) rotate(-1deg); }
+} 
 
 .esquisse {
 	font-size: 15px;
 } 
-
 
 footer.basdepage {
 	background-color: #1B5E20; 
@@ -132,6 +165,40 @@ footer.basdepage {
 	color: #a188df;
 	margin-top: 30px;
 	font-size: 15px;
+}
+
+h2.droit {
+	text-align: center;
+	margin-top: 180px;
+	font-family: Apple chancery; 
+} 
+
+h3 img {
+	margin-right: 10px;
+	height: 20px;
+} 
+
+h4.note {
+	font-size: 15px;
+}  
+
+h4.hr:hover{
+	text-align: center;
+	text-decoration: underline; 	
+}
+
+.hr {
+	align-items: center;
+	display: flex;
+	text-align: center;
+}
+
+.hr::before,
+.hr::after {
+	border-top: 0.3em solid;
+	content: "";
+	flex: 1;
+	margin: 0.5em;
 }
 
 .hautchic {
@@ -158,14 +225,17 @@ footer.basdepage {
 header.entete {
 	background-color: #1B5E20;
 	color: #FFC107;
-	/*position: fixed;	
-	top: 0 ;
-	right: 0;
-	left: 0;*/
-	/*padding: 0.5px;*/
 	text-align: center;
 }
 
+.iconebas {
+	text-align: center;
+} 
+
+img {
+    height: 30px;
+} 
+ 
 nav.prochainement span {
 	display: inline-block;
 	border-radius: 10px;
@@ -189,61 +259,13 @@ nav.prochainement span {
 	font-size: 15px;
 }
 
+.prochainement {
+	text-align: center;
+} 
+
 section.row {
 	display: flex;	
 }
-
-a {
-	text-decoration: none;
-	color: #FFC107;
-	border: #1B5E20;
-	font-size: 15px;
-} 
-
-div.ensemblenote {
-	font-family: Apple chancery;
-	background-color: #FCDFDB; 
-	padding: 50px;	
-}
-
-h3 img {
-	margin-right: 10px;
-	height: 20px;
-} 
-
-/*h4 {
-	text-align: center;
-}*/
-
-h4 :hover{
-	text-align: center;
-	text-decoration: underline; 	
-}
-
-.hr {
-	align-items: center;
-	display: flex;
-	text-align: center;
-}
-
-.hr::before,
-.hr::after {
-	border-top: 0.3em solid;
-	content: "";
-	flex: 1;
-	margin: 0.5em;
-}
-
-img {
-    height: 30px;
-    /*padding-top: 10px;*/
-    /*text-align: center;*/
-} 
-
-h4.note {
-	font-size: 15px;
-
-} 
 
 span.gras {
 	font-weight: bold;   	
@@ -251,58 +273,44 @@ span.gras {
 
 span.tarif {
 font-weight: bold;
-}
-
-a{
-	text-decoration: none;
-	color: #FFC107;
-	background-color: #1B5E20;
-	border: #1B5E20;
-	font-size: 15px;
 } 
 
-h2.droit {
-	text-align: center;
-	margin-top: 180px;
-	font-family: Apple chancery; 
-}
-
 table{
-	/*display: inline-table;*/
 	margin: 0 auto; 
 	width: 400px;
 }
 
 td.tarif{
 	text-align: right;
-}
+} 
 
-.prochainement {
-	text-align: center;
-}
+.wrapper {
+	max-width: 700px;
+	margin: auto;
+} 
 
-.iconebas {
-	text-align: center;
-}
 
-div.col:hover {
-	animation: shake 0.3s;
-	animation-iteration-count: infinite;
-}
 
-@keyframes shake {
-	0% { transform: translate (1px, 1px) rotate (0deg); }
-	10% { transform: translate (-1px, -2px) rotate (-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-  	30% { transform: translate(3px, 2px) rotate(0deg); }
-  	40% { transform: translate(1px, -1px) rotate(1deg); }
-  	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  	60% { transform: translate(-3px, 1px) rotate(0deg); }
-  	70% { transform: translate(3px, 1px) rotate(-1deg); }
-  	80% { transform: translate(-1px, -1px) rotate(1deg); }
-  	90% { transform: translate(1px, 2px) rotate(0deg); }
-  	100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
