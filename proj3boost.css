@@ -6,14 +6,6 @@ a {
 	font-size: 15px;
 } 
 
-/*a{
-	text-decoration: none;
-	color: #FFC107;
-	
-	border: #1B5E20;
-	font-size: 15px;
-} */
-
 a.chic {
 	background-color: #fef5ff;
 	font-size: 20px;
@@ -50,6 +42,7 @@ a.col {
 	flex: 1 0 auto;
 	display: block;
 	transition: transform 0.5s;
+	opacity: 0.8;
 } 
 
 a.col:hover {
@@ -100,7 +93,6 @@ a.col:hover {
 .contenupalette {
 	background-color: #fdfffd;
 	font-family: Monotype Corsiva;
-	/*text-align: auto; */
 	height: 550px;		
 } 
 
@@ -115,7 +107,10 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;	
+}
 
+div.menu {
+	padding-bottom: 50px;
 }
 
 div.ensemblenote {
@@ -123,6 +118,16 @@ div.ensemblenote {
 	background-color: #FCDFDB; 
 	padding: 50px;	
 } 
+
+div.prochainement {
+	display: block;
+	border-radius: 10px;
+	background-color: #1B5E20;
+	color: #FFC107;
+	padding: 2px 60px;
+	margin: auto;
+	width: 100px;
+}
 
 div.col:hover {
 	animation: shake 0.3s;
@@ -175,14 +180,14 @@ h2.droit {
 
 h3 img {
 	margin-right: 10px;
-	height: 20px;
+	height: 30px;
 } 
 
 h4.note {
 	font-size: 15px;
 }  
 
-h4.hr:hover{
+h4.hr:hover {
 	text-align: center;
 	text-decoration: underline; 	
 }
@@ -196,8 +201,8 @@ h4.hr:hover{
 .hr::before,
 .hr::after {
 	border-top: 0.3em solid;
-	content: "";
 	flex: 1;
+	content:"";
 	margin: 0.5em;
 }
 
@@ -216,8 +221,6 @@ h4.hr:hover{
 }
 
 .hautpalette {
-	/*margin-top: 40px;
-	margin-bottom: 40px;*/
 	color: #94cf7f;
 	text-align: center;
 } 
@@ -233,17 +236,9 @@ header.entete {
 } 
 
 img {
-    height: 30px;
+    height: 40px;
 } 
  
-nav.prochainement span {
-	display: inline-block;
-	border-radius: 10px;
-	background-color: #1B5E20;
-	color: #FFC107;
-	padding: 10px 60px;
-}
-
 .oeuvre {
 	margin-top: 30px;
 	font-size: 15px;
@@ -259,9 +254,24 @@ nav.prochainement span {
 	font-size: 15px;
 }
 
-.prochainement {
-	text-align: center;
+.pointsuspension {
+	cursor: pointer;
+	transform: scale(1);
+	transition-duration: 3000ms;
+	font-size: 15px;
+	letter-spacing: 30px;
+	padding-bottom: 0px;
+	&:hover {
+		transform: scale(1.15);
+	}    
 } 
+
+/*.pointsuspension {
+ 	display: block;
+ 	overflow-x:hidden;
+ 	letter-spacing: 20px
+	font-size: 500px;
+}*/
 
 section.row {
 	display: flex;	
@@ -316,38 +326,4 @@ td.tarif{
 
 
 
-
-/*@media all and (max-width: 1280px)
-{
-	#wrapper
-	{
-		width: auto;
-	}
-}*/
-
-
-
-
-
-
-
-/*div.ensemblenote img h3 {
-	text-align: center;
-}*/
-
-
-
-
-/*.note span.imgs{
-	background-image:
-	     linear-gradient(to right, white, yellow),
-	    url('images/musical.png');
-	   
-	    height: 40px;
-	    width: 40%;
-	    background-size: cover;
-	    /color: white;/
-	    /padding: 20px;/
-	    background-image: url("images/musical.png");
-}*/
 
