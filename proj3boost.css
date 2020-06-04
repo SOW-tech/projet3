@@ -292,6 +292,7 @@ table{
 
 td.tarif{
 	text-align: right;
+	font-weight: bold;
 } 
 
 .wrapper {
