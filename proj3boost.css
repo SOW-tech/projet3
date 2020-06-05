@@ -8,45 +8,41 @@ a {
 
 a.chic {
 	background-color: #fef5ff;
-	font-size: 20px;
 	font-family: Noteworty light;
 	color: rgb(214, 151, 123);
-	width: 50px;
 } 
 
 a.délice {
 	background-color: #F9F9F9;
-	font-size: 20px;
 	font-family: Freestyle Script;
 	color: rgb(127,168, 243);
-	width: 50px;
 }
 
 a.note {
 	background-color: #FCDFDB;
-	font-size: 20px;
 	font-family: Apple chancery;
-	color: #61393E;	
-	width: 50px;
+	color: #61393E;		
 }
 
 a.palette {
 	background-color: #FDFFFD;
-	font-size: 20px;
 	font-family: Monotype Corsiva;
-	color: #94cf7f;
-	width: 50px;
+	color: #94cf7f;	
 } 
 
 a.col {
 	flex: 1 0 auto;
 	display: block;
 	transition: transform 0.5s;
-	opacity: 0.8;
+	opacity: 0.5;
+	transition: opacity 3s;
+	font-size: 20px;
+	width: 50px; 
 } 
 
 a.col:hover {
 	transform: scale(1.2);
+	opacity: 1;
 }
 
 .art {
@@ -255,23 +251,16 @@ img {
 }
 
 .pointsuspension {
-	cursor: pointer;
-	transform: scale(1);
-	transition-duration: 3000ms;
-	font-size: 15px;
-	letter-spacing: 30px;
-	padding-bottom: 0px;
-	&:hover {
-		transform: scale(1.15);
-	}    
-} 
-
-/*.pointsuspension {
- 	display: block;
- 	overflow-x:hidden;
- 	letter-spacing: 20px
-	font-size: 500px;
-}*/
+	display: inline-block;
+	font-size: 1em;
+	margin: 0 auto;
+	animation: center-animate 2s ease infinite normal;
+	overflow: hidden;
+}
+@keyframes center-animate {
+	0% {width: 0}
+	100% { width: 1em }
+}
 
 section.row {
 	display: flex;	
