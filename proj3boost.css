@@ -227,12 +227,8 @@ section.row {
 	display: flex;	
 }
 
-span.gras {
+span.gras.tarif {
 	font-weight: bold;   	
-} 
-
-span.tarif {
-font-weight: bold;
 } 
 
 table{
