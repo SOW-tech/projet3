@@ -38,6 +38,12 @@ a.col {
 	transition: opacity 3s;
 	font-size: 20px;
 	width: 50px; 
+    margin: 20px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 } 
 
 a.col:hover {
@@ -45,30 +51,13 @@ a.col:hover {
 	opacity: 1;
 }
 
-.art {
-	margin-top: 30px;
-	font-size: 15px;
-} 
-
 .appetitchic {
 	color: #e3b78e;
-	font-size: 15px;
 } 
 
-.biencommencer {
-	margin-top: 30px;
-	font-size: 15px;
+body {
+	text-align: center;
 }
-
-.biencontinuer {
-	margin-top: 30px;
-	font-size: 15px;
-}
-
-.bienterminer {
-	margin-top: 30px;
-	font-size: 15px;
-}  
 
 .chic a {
 	color: rgb(214, 151, 123);
@@ -76,34 +65,22 @@ a.col:hover {
 
 .contenuchic {
 	background-color: #fef5ff;
-	height: 550px;
 	font-family: Noteworty light;
  }
 
  .contenudelice {
 	background-color: #F9F9F9;
 	font-family: Freestyle Script; 
-	height: 550px;
 } 
 
 .contenupalette {
 	background-color: #fdfffd;
 	font-family: Monotype Corsiva;
-	height: 550px;		
 } 
 
 .délice a {
     color: rgb(127,168, 243);
 } 
-
-div.menu a.col{
-margin: 20px;
-height: 180px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;	
-}
 
 div.menu {
 	padding-bottom: 50px;
@@ -144,10 +121,6 @@ div.col:hover {
   	100% { transform: translate(1px, -2px) rotate(-1deg); }
 } 
 
-.esquisse {
-	font-size: 15px;
-} 
-
 footer.basdepage {
 	background-color: #1B5E20; 
 	color: #FFC107; 
@@ -165,7 +138,6 @@ footer.basdepage {
 .gourmandiseschic {
 	color: #a188df;
 	margin-top: 30px;
-	font-size: 15px;
 }
 
 h2.droit {
@@ -179,12 +151,12 @@ h3 img {
 	height: 30px;
 } 
 
-h4.note {
-	font-size: 15px;
-}  
+h4 {
+	font-size: 15px; 
+	margin-top: 30px;
+}
 
 h4.hr:hover {
-	text-align: center;
 	text-decoration: underline; 	
 }
 
@@ -202,29 +174,25 @@ h4.hr:hover {
 	margin: 0.5em;
 }
 
+.hauteur {
+	height: 550px; 
+}
+
 .hautchic {
 	color: rgb(214, 151, 123); 
-	text-align: center;
 } 
 
 .hautdelice {
     color: rgb(127, 168, 243); 
-    text-align: center;
-}  
-
-.hautnote {
-	text-align: center;
-}
+} 
 
 .hautpalette {
 	color: #94cf7f;
-	text-align: center;
 } 
 
 header.entete {
 	background-color: #1B5E20;
 	color: #FFC107;
-	text-align: center;
 }
 
 .iconebas {
@@ -234,11 +202,6 @@ header.entete {
 img {
     height: 40px;
 } 
- 
-.oeuvre {
-	margin-top: 30px;
-	font-size: 15px;
-} 
 
 .palette a {
     color: #94cf7f;
@@ -246,8 +209,6 @@ img {
 
 .plaisirchic {
 	color: #ac73a2;
-	margin-top: 30px;
-	font-size: 15px;
 }
 
 .pointsuspension {
