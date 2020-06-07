@@ -55,10 +55,6 @@ a.col:hover {
 	color: #e3b78e;
 } 
 
-body {
-	text-align: center;
-}
-
 .chic a {
 	color: rgb(214, 151, 123);
 }
@@ -84,6 +80,10 @@ body {
 
 div.menu {
 	padding-bottom: 50px;
+}
+
+div.hautnote p {
+	text-align: center;
 }
 
 div.ensemblenote {
@@ -140,6 +140,10 @@ footer.basdepage {
 	margin-top: 30px;
 }
 
+h2 {
+	text-align: center;
+}
+
 h2.droit {
 	text-align: center;
 	margin-top: 180px;
@@ -193,6 +197,7 @@ h4.hr:hover {
 header.entete {
 	background-color: #1B5E20;
 	color: #FFC107;
+	text-align: center;
 }
 
 .iconebas {
@@ -201,7 +206,7 @@ header.entete {
 
 img {
     height: 40px;
-} 
+}
 
 .palette a {
     color: #94cf7f;
