@@ -30,7 +30,7 @@ a.palette {
 	color: #94cf7f;	
 } 
 
-a.col {
+a.carre {
 	flex: 1 0 auto;
 	display: block;
 	transition: transform 0.5s;
@@ -46,7 +46,7 @@ a.col {
     justify-content: center; 
 } 
 
-a.col:hover {
+a.carre:hover {
 	transform: scale(1.2);
 	opacity: 1;
 }
@@ -102,7 +102,7 @@ div.prochainement {
 	width: 100px;
 }
 
-div.col:hover {
+div.echange:hover {
 	animation: shake 0.3s;
 	animation-iteration-count: infinite;
 }
@@ -228,7 +228,7 @@ img {
 	100% { width: 1em }
 }
 
-section.row {
+section.quatrecare {
 	display: flex;	
 }
 
