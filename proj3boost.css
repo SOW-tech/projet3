@@ -82,14 +82,11 @@ div.menu {
 	padding-bottom: 50px;
 }
 
-div.hautnote p {
-	text-align: center;
-}
-
 div.ensemblenote {
 	font-family: Apple chancery;
 	background-color: #FCDFDB; 
 	padding: 50px;	
+	text-align: center;
 } 
 
 div.prochainement {
@@ -108,7 +105,8 @@ div.echange:hover {
 }
 
 @keyframes shake {
-	0% { transform: translate (1px, 1px) rotate (0deg); }
+	0%  { transform: translate (1px, 1px);
+		  transform: rotate (0deg); }
 	10% { transform: translate (-1px, -2px) rotate (-1deg); }
 	20% { transform: translate(-3px, 0px) rotate(1deg); }
   	30% { transform: translate(3px, 2px) rotate(0deg); }
@@ -179,7 +177,7 @@ h4.hr:hover {
 }
 
 .hauteur {
-	height: 550px; 
+	height: 100vh; 
 }
 
 .hautchic {
@@ -228,7 +226,7 @@ img {
 	100% { width: 1em }
 }
 
-section.quatrecare {
+div.quatrecare {
 	display: flex;	
 }
 
