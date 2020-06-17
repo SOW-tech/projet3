@@ -83,18 +83,18 @@ div.menu {
 }
 
 div.ensemblenote {
-	font-family: Apple chancery;
+	/*font-family: Apple chancery;*/
 	background-color: #FCDFDB; 
-	padding: 50px;	
-	text-align: center;
+	/*padding: 50px;	*/
+	/*text-align: center;*/
 } 
 
 div.prochainement {
-	display: block;
+	display: flex;
 	border-radius: 10px;
 	background-color: #1B5E20;
 	color: #FFC107;
-	padding: 2px 60px;
+	padding: 10px 60px;
 	margin: auto;
 	width: 100px;
 }
@@ -105,8 +105,7 @@ div.echange:hover {
 }
 
 @keyframes shake {
-	0%  { transform: translate (1px, 1px);
-		  transform: rotate (0deg); }
+	0%  { transform: translate (1px, 1px); rotate (0deg); }
 	10% { transform: translate (-1px, -2px) rotate (-1deg); }
 	20% { transform: translate(-3px, 0px) rotate(1deg); }
   	30% { transform: translate(3px, 2px) rotate(0deg); }
@@ -204,6 +203,7 @@ header.entete {
 
 img {
     height: 40px;
+    text-align: center;
 }
 
 .palette a {
@@ -220,6 +220,7 @@ img {
 	margin: 0 auto;
 	animation: center-animate 2s ease infinite normal;
 	overflow: hidden;
+
 }
 @keyframes center-animate {
 	0% {width: 0}
