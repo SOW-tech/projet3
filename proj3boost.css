@@ -82,7 +82,7 @@ div.menu {
 	padding-bottom: 50px;
 }
 
-div.ensemblenote {
+.ensemblenote {
 	/*font-family: Apple chancery;*/
 	background-color: #FCDFDB; 
 	/*padding: 50px;	*/
@@ -149,8 +149,12 @@ h2.droit {
 
 h3 img {
 	margin-right: 10px;
-	height: 30px;
+	height: 30px;	
 } 
+
+h3 {
+	margin-bottom: 38px;
+}
 
 h4 {
 	font-size: 15px; 
@@ -203,7 +207,10 @@ header.entete {
 
 img {
     height: 40px;
-    text-align: center;
+}
+
+p {
+	text-align: center;
 }
 
 .palette a {
