@@ -1,32 +1,31 @@
 a {
 	text-decoration: none;
-	color: #FFC107;
-	background-color: #1B5E20; 
+	color: #CFBE5B;
 	border: #1B5E20;
 	font-size: 15px;
 } 
 
 a.chic {
 	background-color: #fef5ff;
-	font-family: Noteworty light;
+	font-family: 'Croissant One', cursive;
 	color: rgb(214, 151, 123);
 } 
 
 a.délice {
 	background-color: #F9F9F9;
-	font-family: Freestyle Script;
+	font-family: 'Dancing Script', cursive;
 	color: rgb(127,168, 243);
 }
 
 a.note {
 	background-color: #FCDFDB;
-	font-family: Apple chancery;
+   	font-family: 'Ma Shan Zheng', cursive;
 	color: #61393E;		
 }
 
 a.palette {
 	background-color: #FDFFFD;
-	font-family: Monotype Corsiva;
+	font-family: 'Kaushan Script', cursive;
 	color: #94cf7f;	
 } 
 
@@ -64,7 +63,7 @@ a.carre:hover {
  }
 
  .contenuchic section{
-    font-family: Noteworty light; 
+    font-family: 'Croissant One', cursive; 
  }
 
  .contenudelice {
@@ -72,7 +71,7 @@ a.carre:hover {
 } 
 
 .contenudelice section {
-   font-family: Freestyle Script;  
+   font-family: 'Dancing Script', cursive; 
 }
 
 .contenunote {
@@ -80,14 +79,14 @@ a.carre:hover {
 }
 
 .contenunote section {
-	font-family: Apple chancery; 
+	font-family: 'Ma Shan Zheng', cursive;
 }
 .contenupalette {
 	background-color: #fdfffd;	
 } 
 
 .contenupalette section {
-  font-family: Monotype Corsiva; 
+  font-family: 'Kaushan Script', cursive; 
 }
 
 .délice a {
@@ -101,8 +100,8 @@ div.menu {
 div.prochainement {
 	display: flex;
 	border-radius: 10px;
-	background-color: #1B5E20;
-	color: #FFC107;
+	background-color: #579C87;
+	color: #CFBE5B;
 	padding: 10px 60px;
 	margin: auto;
 	width: 130px;
@@ -128,7 +127,7 @@ div.echange:hover {
 } 
 
 footer.basdepage {
-	background-color: #1B5E20; 
+	background-color: #579C87; 
 	color: #FFC107; 
 	margin-top: 10px; 
 	display: flex;
@@ -193,7 +192,7 @@ h4.hr:hover {
 }
 
 .hautchic {
-	color: rgb(214, 151, 123); 
+	color: rgb(214, 151, 123);	
 } 
 
 .hautdelice {
@@ -205,8 +204,8 @@ h4.hr:hover {
 } 
 
 header.entete {
-	background-color: #1B5E20;
-	color: #FFC107;
+	background-color: #579C87;
+	color: #FDCB46;
 	text-align: center;
 }
 
