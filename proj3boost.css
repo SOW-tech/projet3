@@ -133,16 +133,17 @@ div.echange:hover {
 footer.basdepage {
 	background-color: #579C87; 
 	color: #FFC107; 
-	margin-top: 10px; 
+	/*margin-top: 10px;*/ 
 	display: flex;
 	justify-content: space-between;
-	padding: 10px; 
+	padding-top: 10px;
+	padding-bottom: 10px; 
 	position: fixed;	
 	bottom: 0 ;
 	right: 0;
 	left: 0;
 	text-align: center;
-	font-family: 'Noto Sans', sans-serif; 
+	font-family: 'Noto Sans', sans-serif;  
 }
 
 .gourmandiseschic {
@@ -192,21 +193,28 @@ h4.hr:hover {
 	margin: 0.5em;
 }
 
-.hauteur {
+/*.hauteur {
 	min-height: 130vh; 
-}
+}*/
 
 .hautchic {
-	color: rgb(214, 151, 123);	
+	color: rgb(214, 151, 123);
+	font-family: 'Croissant One', cursive;	
 } 
 
 .hautdelice {
     color: rgb(127, 168, 243); 
+    font-family: 'Dancing Script', cursive;
 } 
 
 .hautpalette {
 	color: #94cf7f;
+	font-family: 'Kaushan Script', cursive;
 } 
+
+.hautnote {
+	font-family: 'Ma Shan Zheng', cursive;
+}
 
 header.entete {
 	background-color: #579C87;
@@ -272,12 +280,13 @@ td.tarif{
 	max-width: 700px;
 	margin: auto;
 	background-color: white;
+	padding-bottom: 100px;
 } 
 
 @media screen and (max-width: 500px) {
   table {
 	margin: 0 auto; 
-	width: auto;
+	width: 100%;
   }  
 } 
 
