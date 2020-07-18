@@ -112,6 +112,11 @@ div.prochainement {
 	font-family: 'Noto Sans', sans-serif; 
 }
 
+div.quatrecare {
+	display: flex;
+	flex-flow: row wrap;	
+}
+
 div.echange:hover {
 	animation: shake 0.3s;
 	animation-iteration-count: infinite;
@@ -134,7 +139,6 @@ div.echange:hover {
 footer.basdepage {
 	background-color: #579C87; 
 	color: #FFC107; 
-	/*margin-top: 10px;*/ 
 	display: flex;
 	justify-content: space-between;
 	padding-top: 10px;
@@ -256,11 +260,6 @@ p {
 @keyframes center-animate {
 	0% {width: 0}
 	100% { width: 1em }
-}
-
-div.quatrecare {
-	display: flex;
-	flex-flow: row wrap;	
 }
 
 span.gras.tarif {
