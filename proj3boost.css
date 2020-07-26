@@ -8,26 +8,39 @@ a {
 a.chic {
 	background-color: #fef5ff;
 	font-family: 'Croissant One', cursive;
-	color: rgb(214, 151, 123);
+	color: rgb(214, 151, 123) ;
+	 
 } 
 
+p.degradechic {
+	background: -webkit-gradient(linear, left top, left bottom, from(#D8852E),to(#905BFD));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+}
+
 a.délice {
-	background-color: #F9F9F9;
-	font-family: 'Dancing Script', cursive;
-	color: rgb(127,168, 243);
+	background-color: #EEF0EF;
+	font-family: 'Dancing Script', cursive; 
+	color: rgb(127,168, 243) ;
 }
 
 a.note {
 	background-color: #FCDFDB;
    	font-family: 'Ma Shan Zheng', cursive;
-	color: #61393E;		
+	color: #61393E;	
 }
 
 a.palette {
 	background-color: #FDFFFD;
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Kaushan Script', cursive;  
 	color: #94cf7f;	
 } 
+
+p.degradepalette {
+	background: -webkit-gradient(linear, left top, left bottom, from(#69B852),to(#B7F97C));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+}
 
 a.carre {
 	flex: 1 0 auto;
@@ -45,7 +58,7 @@ a.carre {
 } 
 
 a.carre:hover {
-	transform: scale(1.2);
+	transform: scale(1.1);
 	opacity: 1;
 }
 
@@ -58,32 +71,40 @@ body {
 	margin: 0px;
 }
 
-.chic a {
+/*.chic a {
 	color: rgb(214, 151, 123);
-}
-
+}*/
+/*
 .contenuchic {
 	background-color: #fef5ff;
- }
+ }*/
 
  .contenuchic section{
     font-family: 'Croissant One', cursive; 
  }
 
+ div.fondchic {
+ 	background-color: #fef5ff; 
+ }
+/*
  .contenudelice {
 	background-color: #F9F9F9;	
-} 
+} */
 
 .contenudelice section {
    font-family: 'Dancing Script', cursive; 
 }
 
-.contenunote {
+/*.contenunote {
 	background-color: #FCDFDB;
-}
+}*/
 
 .contenunote section {
-	font-family: 'Ma Shan Zheng', cursive;
+	font-family: 'Ma Shan Zheng', cursive;	
+}
+
+div.fondnote {
+	background-color: #FCDFDB;
 }
 .contenupalette {
 	background-color: #fdfffd;	
@@ -96,6 +117,14 @@ body {
 .délice a {
     color: rgb(127,168, 243);
 } 
+
+div.fondelice {
+	background-color: #EEF0EF;
+}
+
+div.fondpalette {
+	background-color: #FDFFFD;
+}
 
 div.menu {
 	padding-bottom: 50px;
@@ -198,27 +227,50 @@ h4.hr:hover {
 	margin: 0.5em;
 }
 
+/*section.img.note {
+	align-items: center;
+	display: flex;
+	text-align: center;
+	color: red;
+}
+
+.note::before,
+.note::after {
+	border-top: 0.3em solid;
+	flex: 1;
+	content:"";
+	margin: 0.5em;
+}*/
+
 .hauteur {
 	min-height: 130vh; 
 }
 
 .hautchic {
-	color: rgb(214, 151, 123);
+	/*color: rgb(214, 151, 123);*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#D8852E),to(#905BFD));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-family: 'Croissant One', cursive;	
+	
 } 
 
 .hautdelice {
     color: rgb(127, 168, 243); 
     font-family: 'Dancing Script', cursive;
+    background-color: #EEF0EF;
 } 
 
 .hautpalette {
-	color: #94cf7f;
+	/*color: #94cf7f;*/
 	font-family: 'Kaushan Script', cursive;
+	background: -webkit-gradient(linear, left top, left bottom, from(#69B852),to(#B7F97C));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
 } 
 
 .hautnote {
-	font-family: 'Ma Shan Zheng', cursive;
+	font-family: 'Ma Shan Zheng', cursive; 
 }
 
 header.entete {
