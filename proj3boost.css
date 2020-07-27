@@ -8,15 +8,8 @@ a {
 a.chic {
 	background-color: #fef5ff;
 	font-family: 'Croissant One', cursive;
-	color: rgb(214, 151, 123) ;
-	 
+	color: rgb(214, 151, 123) ;	 
 } 
-
-p.degradechic {
-	background: -webkit-gradient(linear, left top, left bottom, from(#D8852E),to(#905BFD));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
-}
 
 a.délice {
 	background-color: #EEF0EF;
@@ -35,12 +28,6 @@ a.palette {
 	font-family: 'Kaushan Script', cursive;  
 	color: #94cf7f;	
 } 
-
-p.degradepalette {
-	background: -webkit-gradient(linear, left top, left bottom, from(#69B852),to(#B7F97C));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
-}
 
 a.carre {
 	flex: 1 0 auto;
@@ -79,13 +66,10 @@ body {
 	background-color: #fef5ff;
  }*/
 
- .contenuchic section{
+.contenuchic section {
     font-family: 'Croissant One', cursive; 
  }
 
- div.fondchic {
- 	background-color: #fef5ff; 
- }
 /*
  .contenudelice {
 	background-color: #F9F9F9;	
@@ -103,9 +87,6 @@ body {
 	font-family: 'Ma Shan Zheng', cursive;	
 }
 
-div.fondnote {
-	background-color: #FCDFDB;
-}
 .contenupalette {
 	background-color: #fdfffd;	
 } 
@@ -125,6 +106,14 @@ div.fondelice {
 div.fondpalette {
 	background-color: #FDFFFD;
 }
+
+div.fondchic {
+ 	background-color: #fef5ff; 
+ }
+
+ div.fondnote {
+	background-color: #FCDFDB;
+} 
 
 div.menu {
 	padding-bottom: 50px;
@@ -187,6 +176,7 @@ footer.basdepage {
 
 h2 {
 	text-align: center;
+	font-family: 'Ma Shan Zheng', cursive;
 }
 
 h2.droit {
@@ -221,7 +211,7 @@ h4.hr:hover {
 
 .hr::before,
 .hr::after {
-	border-top: 0.3em solid;
+	/*border-top: 0.3em solid;*/
 	flex: 1;
 	content:"";
 	margin: 0.5em;
@@ -248,11 +238,10 @@ h4.hr:hover {
 
 .hautchic {
 	/*color: rgb(214, 151, 123);*/
-	background: -webkit-gradient(linear, left top, left bottom, from(#D8852E),to(#905BFD));
+	background: -webkit-gradient(linear, left top, right top, from(#D8852E),to(#905BFD));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-family: 'Croissant One', cursive;	
-	
+	font-family: 'Croissant One', cursive;		
 } 
 
 .hautdelice {
@@ -268,10 +257,6 @@ h4.hr:hover {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;	
 } 
-
-.hautnote {
-	font-family: 'Ma Shan Zheng', cursive; 
-}
 
 header.entete {
 	background-color: #579C87;
@@ -292,6 +277,18 @@ img {
 p {
 	text-align: center;
 }
+
+p.degradechic {
+	background: -webkit-gradient(linear, left top, right top, from(#D8852E),to(#905BFD));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+} 
+
+p.degradepalette {
+	background: -webkit-gradient(linear, left top, right top, from(#69B852),to(#B7F97C));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;	
+} 
 
 .palette a {
     color: #94cf7f;
