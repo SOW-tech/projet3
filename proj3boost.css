@@ -67,7 +67,7 @@ body {
  }*/
 
 .contenuchic section {
-    font-family: 'Croissant One', cursive; 
+    font-family: 'Merriweather', serif;
  }
 
 /*
@@ -76,7 +76,7 @@ body {
 } */
 
 .contenudelice section {
-   font-family: 'Dancing Script', cursive; 
+   font-family: 'Shadows Into Light', cursive; 
 }
 
 /*.contenunote {
@@ -84,15 +84,15 @@ body {
 }*/
 
 .contenunote section {
-	font-family: 'Ma Shan Zheng', cursive;	
+	font-family: 'Handlee', cursive;	
 }
 
 .contenupalette {
 	background-color: #fdfffd;	
 } 
 
-.contenupalette section {
-  font-family: 'Kaushan Script', cursive; 
+.contenupalette section { 
+  font-family: 'Handlee', cursive;
 }
 
 .délice a {
@@ -187,7 +187,9 @@ h2.droit {
 
 h3 img {
 	margin-right: 10px;
-	height: 30px;	
+	height: 30px;
+	font-family: 'Ma Shan Zheng', cursive;
+
 } 
 
 h3 {
@@ -242,12 +244,16 @@ h4.hr:hover {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-family: 'Croissant One', cursive;		
+
 } 
 
 .hautdelice {
-    color: rgb(127, 168, 243); 
+    /*color: rgb(127, 168, 243); */
     font-family: 'Dancing Script', cursive;
-    background-color: #EEF0EF;
+    /*background-color: #EEF0EF;*/
+    background: -webkit-gradient(linear, left top, right top, from(#3864E6),to(#94C8F4));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
 } 
 
 .hautpalette {
@@ -289,6 +295,12 @@ p.degradepalette {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;	
 } 
+
+p.degradelice {
+	background: -webkit-gradient(linear, left top, right top, from(#3864E6),to(#94C8F4));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
 
 .palette a {
     color: #94cf7f;
