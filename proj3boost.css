@@ -58,30 +58,18 @@ body {
 	margin: 0px;
 }
 
-/*.chic a {
-	color: rgb(214, 151, 123);
-}*/
-/*
-.contenuchic {
-	background-color: #fef5ff;
- }*/
+body,html {
+		max-width: 100%;
+		overflow-x: hidden;
+}
 
 .contenuchic section {
     font-family: 'Merriweather', serif;
  }
 
-/*
- .contenudelice {
-	background-color: #F9F9F9;	
-} */
-
 .contenudelice section {
    font-family: 'Shadows Into Light', cursive; 
 }
-
-/*.contenunote {
-	background-color: #FCDFDB;
-}*/
 
 .contenunote section {
 	font-family: 'Handlee', cursive;	
@@ -99,6 +87,10 @@ body {
     color: rgb(127,168, 243);
 } 
 
+div.echange {
+	margin: 10px;
+} 
+
 div.fondelice {
 	background-color: #EEF0EF;
 }
@@ -111,7 +103,7 @@ div.fondchic {
  	background-color: #fef5ff; 
  }
 
- div.fondnote {
+div.fondnote {
 	background-color: #FCDFDB;
 } 
 
@@ -189,7 +181,6 @@ h3 img {
 	margin-right: 10px;
 	height: 30px;
 	font-family: 'Ma Shan Zheng', cursive;
-
 } 
 
 h3 {
@@ -199,6 +190,10 @@ h3 {
 h4 {
 	font-size: 15px; 
 	margin-top: 30px;
+}
+
+h4.img {
+	margin: auto;
 }
 
 h4.hr:hover {
@@ -219,27 +214,11 @@ h4.hr:hover {
 	margin: 0.5em;
 }
 
-/*section.img.note {
-	align-items: center;
-	display: flex;
-	text-align: center;
-	color: red;
-}
-
-.note::before,
-.note::after {
-	border-top: 0.3em solid;
-	flex: 1;
-	content:"";
-	margin: 0.5em;
-}*/
-
 .hauteur {
 	min-height: 130vh; 
 }
 
 .hautchic {
-	/*color: rgb(214, 151, 123);*/
 	background: -webkit-gradient(linear, left top, right top, from(#D8852E),to(#905BFD));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -248,16 +227,13 @@ h4.hr:hover {
 } 
 
 .hautdelice {
-    /*color: rgb(127, 168, 243); */
     font-family: 'Dancing Script', cursive;
-    /*background-color: #EEF0EF;*/
     background: -webkit-gradient(linear, left top, right top, from(#3864E6),to(#94C8F4));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; 
 } 
 
 .hautpalette {
-	/*color: #94cf7f;*/
 	font-family: 'Kaushan Script', cursive;
 	background: -webkit-gradient(linear, left top, left bottom, from(#69B852),to(#B7F97C));
 	-webkit-background-clip: text;
@@ -274,6 +250,7 @@ header.entete {
 
 .iconebas {
 	text-align: center;
+	font-family: 'Ma Shan Zheng', cursive;
 } 
 
 img {
@@ -344,16 +321,13 @@ td.tarif{
 	padding-bottom: 100px;
 } 
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 200px) and (max-width: 500px) {
   table {
 	margin: 0 auto; 
 	width: 100%;
-  }  
+  }
 }
 
-div.echange {
-	margin: 10px;
-}
 
 
 
