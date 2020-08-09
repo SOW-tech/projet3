@@ -31,9 +31,9 @@ a.palette {
 
 a.carre {
 	flex: 1 0 auto;
-	transition: transform 0.5s;
+	/*transition: transform 0.5s;
 	opacity: 0.5;
-	transition: opacity 3s;
+	transition: opacity 3s;*/
 	font-size: 20px;
 	width: 200px; 
     margin: 20px;
@@ -44,10 +44,10 @@ a.carre {
     justify-content: center; 
 } 
 
-a.carre:hover {
+/*a.carre:hover {
 	transform: scale(1.1);
 	opacity: 1;
-}
+}*/
 
 .appetitchic {
 	color: #e3b78e;
@@ -59,8 +59,8 @@ body {
 }
 
 body,html {
-		max-width: 100%;
-		overflow-x: hidden;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 .contenuchic section {
@@ -199,7 +199,7 @@ h4.img {
 }
 
 h4.hr:hover {
-	text-decoration: underline; 	
+	text-decoration: underline; 
 }
 
 .hr {
@@ -225,7 +225,6 @@ h4.hr:hover {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-family: 'Croissant One', cursive;		
-
 } 
 
 .hautdelice {
@@ -266,19 +265,54 @@ p {
 p.degradechic {
 	background: -webkit-gradient(linear, left top, right top, from(#D8852E),to(#905BFD));
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
+	-webkit-text-fill-color: transparent;
+	transition: transform 0.5s;
+	opacity: 0.5;
+	transition: opacity 0.5s;	
 } 
+
+p.degradechic:hover {
+	transform: scale(1.1);
+	opacity: 0.3;
+}
 
 p.degradepalette {
 	background: -webkit-gradient(linear, left top, right top, from(#69B852),to(#B7F97C));
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
+	-webkit-text-fill-color: transparent;
+	transition: transform 0.5s;
+	opacity: 0.5;
+	transition: opacity 0.5s;	
+} 
+
+p.degradepalette:hover {
+	transform: scale(1.1);
+	opacity: 0.3;
 } 
 
 p.degradelice {
 	background: -webkit-gradient(linear, left top, right top, from(#3864E6),to(#94C8F4));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; 
+	transition: transform 0.5s;
+	opacity: 0.5;
+	transition: opacity 0.5s;
+}
+
+p.degradelice:hover {
+	transform: scale(1.1);
+	opacity: 0.3;
+}
+
+p.degradenote {
+	transition: transform 0.5s;
+	opacity: 0.5;
+	transition: opacity 0.5s;
+}
+
+p.degradenote:hover {
+	transform: scale(1.1);
+	opacity: 0.3;
 }
 
 .palette a {
