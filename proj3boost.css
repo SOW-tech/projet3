@@ -83,6 +83,16 @@ body,html {
   font-family: 'Handlee', cursive;
 }
 
+.degrade {
+	transition: transform 0.5s;
+	opacity: 0.5;
+	transition: opacity 0.5s;
+}
+.degrade:hover {
+	transform: scale(1.1);
+	opacity: 0.3;
+} 
+
 .délice a {
     color: rgb(127,168, 243);
 } 
