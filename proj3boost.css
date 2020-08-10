@@ -198,9 +198,45 @@ h4.img {
 	text-align: center;
 }
 
-h4.hr:hover {
+/*h4.hr:hover {
 	text-decoration: underline; 
+}*/
+
+h4.hr span {
+   position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+        text-align:center;  
+        /*width:100%;
+        height:200px;*/
 }
+
+h4.hr span {
+        display: inline;
+        position: relative;
+        /*color: #E46161;*/
+        text-decoration: none;   
+}
+
+h4.hr span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    width: 0%;
+    left: 0px;
+    height: 2px;
+    transition: 0.25s cubic-bezier(0.72,-0.01, 0.19, 0.92);
+    background: black;
+}
+
+h4.hr span:hover:after {
+        width: 100%;
+}
+
 
 .hr {
 	align-items: center;
