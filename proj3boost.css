@@ -86,11 +86,11 @@ body,html {
 .degrade {
 	transition: transform 0.5s;
 	/*opacity: 0.5;*/
-	transition: opacity 0.5s;
+	transition: opacity 0.5s ease-in-out;
 }
 .degrade:hover {
-	transform: scale(1.1);
-	opacity: 0.3;
+	transform: scale(1.4);
+	opacity: 0.3;	
 } 
 
 .délice a {
@@ -313,12 +313,12 @@ p.degradechic {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: transform 0.5s;
-	opacity: 0.5;
-	transition: opacity 0.5s;	
+	opacity: 1;
+	transition: opacity 5s;	
 } 
 
 p.degradechic:hover {
-	transform: scale(1.1);
+	transform: scale(1.3);
 	opacity: 0.3;
 }
 
@@ -327,12 +327,12 @@ p.degradepalette {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: transform 0.5s;
-	opacity: 0.5;
+	opacity: 1;
 	transition: opacity 0.5s;	
 } 
 
 p.degradepalette:hover {
-	transform: scale(1.1);
+	transform: scale(1.5);
 	opacity: 0.3;
 } 
 
@@ -341,23 +341,23 @@ p.degradelice {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; 
 	transition: transform 0.5s;
-	opacity: 0.5;
+	opacity: 1;
 	transition: opacity 0.5s;
 }
 
 p.degradelice:hover {
-	transform: scale(1.1);
+	transform: scale(1.5);
 	opacity: 0.3;
 }
 
 p.degradenote {
 	transition: transform 0.5s;
-	opacity: 0.5;
+	opacity: 1;
 	transition: opacity 0.5s;
 }
 
 p.degradenote:hover {
-	transform: scale(1.1);
+	transform: scale(1.5);
 	opacity: 0.3;
 }
 
