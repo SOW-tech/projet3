@@ -31,9 +31,9 @@ a.palette {
 
 a.carre {
 	flex: 1 0 auto;
-	/*transition: transform 0.5s;
-	opacity: 0.5;
-	transition: opacity 3s;*/
+	transition: transform 0.5s;
+	opacity: 1;
+	transition: opacity 3s;
 	font-size: 20px;
 	width: 200px; 
     margin: 20px;
@@ -44,10 +44,10 @@ a.carre {
     justify-content: center; 
 } 
 
-/*a.carre:hover {
+a.carre:hover {
 	transform: scale(1.1);
-	opacity: 1;
-}*/
+	opacity: 0.3;
+}
 
 .appetitchic {
 	color: #e3b78e;
@@ -85,7 +85,7 @@ body,html {
 
 .degrade {
 	transition: transform 0.5s;
-	opacity: 0.5;
+	/*opacity: 0.5;*/
 	transition: opacity 0.5s;
 }
 .degrade:hover {
@@ -228,7 +228,7 @@ h4.hr span {
         display: inline;
         position: relative;
         /*color: #E46161;*/
-        text-decoration: none;   
+        /*text-decoration: none; */  
 }
 
 h4.hr span:after {
